@@ -1,0 +1,158 @@
+<style type="text/css">
+.header{
+    text-align: center;
+}
+.container{
+    width: 60%;
+    margin: 1% auto;
+    margin-bottom: 50px;    
+    
+    border-radius: 8px;
+    border-left: 6px solid red;
+    background-color: lightgrey;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+
+.form-style-1 {
+    margin:10px auto;
+    max-width: 90%;
+    padding: 20px 12px 10px 20px;
+    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.form-style-1 li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+.form-style-1 label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+}
+.form-style-1 input[type=text], 
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea, 
+select{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    border-radius: 4px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;  
+}
+.form-style-1 input[type=text]:focus, 
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus, 
+.form-style-1 select:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+
+}
+.form-style-1 .field-divided{
+    width: 49%;
+}
+
+.form-style-1 .field-long{
+    width: 100%;
+}
+.form-style-1 .field-select{
+    width: 100%;
+}
+.form-style-1 .field-textarea{
+    height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button], .form-style-1 input[type=reset]{
+    background: black;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: grey;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover, .form-style-1 input[type=reset]:hover{
+    background: black;
+    color: white;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+}
+.form-style-1 .required{
+    color:red;
+}
+
+h1{
+  font-variant: small-caps;
+  text-shadow: 3px 2px grey;
+}
+
+footer {
+    position:fixed;
+    background-color: teal;
+    width : 100%;
+    text-align: center;
+    color : white;
+    bottom:0;
+    
+
+
+}
+
+div.foot{
+  background-color: : teal;
+}
+
+body{
+    background: url(bg2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media screen and (max-width:959px){
+     .container {
+      width: 90%; 
+  } 
+  footer{
+    position: static;
+  }
+}
+@media screen and (max-width:640px){
+     .container {
+      width: 99%; 
+  } 
+  footer{
+    position: static;
+  }
+}
+@media screen and (max-width:320px){
+     .container {
+      width: 320px%; 
+  } 
+  footer{
+    position: static;
+  }
+}
+</style>
